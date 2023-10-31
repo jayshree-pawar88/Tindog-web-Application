@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*---------header part start----------------
+---------------------------------------------*/
+header{
+    background-color: rgb(235, 35, 69);
+    width: 100%;
+    height: 680px;
+}
+.tindog-text{
+    color: white;
+}
+.nav-link{
+    font-size: 25px;
+    color: rgb(248, 207, 207);
+}
+.header-data{
+   padding: 50px 50px;
+}
+.text{
+padding-top: 40px;
+font-size: 50px;
+color: white;
+font-weight: bold;  
+}
+.header-button{
+ padding: 30px;
+}
+.button{
+padding: 20px;
+color: white;
+background-color: transparent;
+border: 1px solid rgb(12, 12, 12);
+border-radius: 5px;
+font-size: 20px;
+margin: 10px;
+}
+.button:hover{
+background-color: white;
+color: rgb(226, 18, 53);
+}
+.heading-img{
+overflow: hidden;
+height: 550px;
+width: 50%;
+text-align: center;
+padding-top: 40px;
+}
+.h-img{
+height: 650px;
+width: 300px;
+transform: rotate(25deg);
+}
+
+/*---------header part end----------------
+---------------------------------------------*/
+
+/*---------section part start----------------
+---------------------------------------------*/
+.section-part{
+    height: 500px;
+    width: 100%;
+}
+.section-icon{
+     align-items: center;
+     width: 20%;
+     margin: 100px;
+}
+.section-icon i{
+    font-size: 50px;
+    color:white;
+    background-color: rgb(226, 35, 67);
+    padding: 20px;
+    border-radius: 50px;
+}
+.section-icon h1{
+    padding: 10px;
+}
+.main-box{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(235, 35, 69);
+    margin-bottom: 50px;
+    padding: 150px 0;
+}
+
+.section-last{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(235, 35, 69);
+    color: white;
+    font-size: 45px;
+    padding: 150px;
+    text-align: center;
+}
+.btn-last{
+    margin: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+.btn-last:hover{
+    background-color:rgb(63, 62, 62);  
+}
+.btn-last1{
+    margin: 20px;
+    font-size: 15px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+}
+.btn-last1:hover{
+    background-color: rgb(199, 189, 189);
+}
+
+
+
+/*---------section part end----------------
+---------------------------------------------*/
+
+/*---------footer part start----------------
+---------------------------------------------*/
+
+footer{
+    width: 100%;
+    height: 150px;
+}
+
+.footer-part{
+    text-align: center;
+    padding: 100px 0;
+}
+
+.footer-part li{
+    list-style-type: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+/*---------footer part end----------------
+---------------------------------------------*/
+
+/*---------Media Query----------------
+---------------------------------------------*/
+@media  screen and (max-width:1140px) {
+    .section-card-container{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }    
+}
+@media screen and (max-width:980px){
+    .section-part{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    header{
+        height: 780px;
+    }
+    .header-text{
+        font-size: 25px;
+    }
+    .section-last{
+        font-size: 25px;
+    }
+    .text{
+        font-size: 35px;
+    }
+    .h-img{
+        height: 450px;
+        width: 200px;
+        transform: rotate(25deg);
+        }
+}
+@media screen and (max-width:750px){
+    .section-last{
+        font-size: 20px;
+        height: 600px;
+    }
+    .header-text{
+        width: 100%;
+        text-align: center;
+    }
+    header{
+        height: 900px; 
+    }
+
+    .header-text-data{
+        width: 100%;
+    }
+    .text{
+        font-size: 25px;
+    }
+    .heading-img{
+        width: 100%;
+        height: auto;
+    }
+}
